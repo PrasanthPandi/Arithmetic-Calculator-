@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class calculator {
+    public static void main(String[] args) {
+    Scanner input= new Scanner (System.in);
+    System.out.println("Enter the first number :");
+    double firstNumber = input.nextDouble();
+    System.out.println("Enter the second number :");
+     double secondNumber = input.nextDouble();
+     
+     double answerofsum = firstNumber + secondNumber;
+     double answerofsub = firstNumber - secondNumber;
+     double answerofmul = firstNumber * secondNumber;
+     double answerofdiv = firstNumber / secondNumber;
+     
+     System.out.println ("sum is :"+answerofsum);
+     System.out.println ("sub is :"+answerofsub );
+     System.out.println ("mul is :"+answerofmul );
+     System.out.println ("div is :"+answerofdiv );
+     
+     
+    }
+}
